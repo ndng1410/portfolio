@@ -1,0 +1,14 @@
+.backtotopbtn button {
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    width: 50px;
+    height: 50px;
+    font-size: 50px;
+    background: transparent;
+    border: none;
+}
+
+.backtotopbtn button:hover {
+    color: white;
+}

@@ -1,0 +1,42 @@
+.project {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.project h1 {
+  color: #3e497a;
+  font-size: 35px;
+}
+.project img {
+  width: 400px;
+  border-radius: 10px;
+}
+
+.project p {
+  font-size: 40px;
+  color: #3e497a;
+}
+
+.project svg {
+  font-size: 60px;
+  color: #3e497a;
+}
+
+.project button {
+  font-size: 2rem;
+  border-radius: 8px;
+  background: #3e497a;
+  color: white;
+  transition-duration: 0.4s;
+  margin-bottom: 20px;
+}
+
+.project button:hover {
+  background-color: white;
+  color: #3e497a;
+  cursor: pointer;
+}
