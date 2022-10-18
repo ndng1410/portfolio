@@ -5,6 +5,11 @@
     color: #3e497a;
 }
 
+.container {
+    width: 100%;
+    padding: 0;
+}
+
 .about {
     width: 100%;
     height: calc(100vh - 100px);
@@ -13,7 +18,7 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    background-color: #21325e;
+    background-image: url(../assets/hinhbg.jpg);
     color: #f0f0f0;
 }
 

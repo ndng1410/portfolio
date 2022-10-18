@@ -15,7 +15,7 @@ function BackToTopButton() {
     useEffect(() => {
         //button display after scrolling for x pixels
         window.addEventListener("scroll", () => {
-            if(window.scrollY > 300){
+            if(window.scrollY > 100){
                 setIsVisible(true)
             } else {
                 setIsVisible(false)
@@ -25,7 +25,7 @@ function BackToTopButton() {
        
     return (
     <div className='backtotopbtn'>
-        {BackToTopButton && (
+        {isVisible && (
             <button onClick = {scrollUp}>
                 <FaArrowAltCircleUp classname='btnicon'/>
             </button>

@@ -1,0 +1,14 @@
+.contact {
+    width: 100%;
+    height: auto;
+    font-family: "Roboto";
+    background-image: url(../assets/hinhbg.jpg);
+    color: #fff;
+    padding: 20px;
+    height: 100vh;
+}
+
+.header {
+    position: relative;
+    margin: 0;
+}
